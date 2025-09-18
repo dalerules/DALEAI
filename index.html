@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DaleAI.com</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #0a0a0a; /* Deep black background */
+      color: #e0e0e0; /* Light grey text for readability */
+    }
+
+    header {
+      background: linear-gradient(135deg, #00ff88, #334a78); /* neon green + grey-blue gradient */
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 3rem;
+      margin: 0;
+      color: #0a0a0a; /* black text against gradient */
+      text-shadow: 0 0 6px #00ff88; /* glow effect */
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 10px;
+      color: #f0f0f0;
+    }
+
+    nav {
+      margin-top: 20px;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #f0f0f0;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #00ff88; /* neon green on hover */
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #00ff88; /* neon green titles */
+    }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #1a1a1a; /* dark grey card */
+      padding: 20px;
+      border-radius: 12px;
+      border: 1px solid #334a78; /* grey-blue border */
+      box-shadow: 0 4px 10px rgba(0,0,0,0.6);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 14px rgba(0,255,136,0.4); /* neon green glow on hover */
+    }
+
+    .project-card h3 {
+      margin-top: 0;
+      color: #00ff88;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #334a78; /* grey-blue links */
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+
+    footer a:hover {
+      color: #00ff88; /* neon green hover */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>DaleAI.com</h1>
+    <p>Exploring AI, Design, and Innovation</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi, I’m Dale! I specialize in AI experiments, creative design, and building innovative digital projects. 
+    I love learning, creating, and pushing ideas forward with technology.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <h3>AI Chatbot</h3>
+        <p>A conversational AI built with Python and NLP libraries to handle customer support queries.</p>
+      </div>
+      <div class="project-card">
+        <h3>Image Classifier</h3>
+        <p>A deep learning model trained to classify images into categories with high accuracy.</p>
+      </div>
+      <div class="project-card">
+        <h3>Web Portfolio</h3>
+        <p>The very site you're browsing—showcasing AI, design, and coding work in one place.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>If you’d like to collaborate or just chat about AI, feel free to reach out!</p>
+    <p><a href="mailto:youremail@example.com">📧 youremail@example.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 DaleAI.com | Connect on 
+      <a href="#">GitHub</a> • 
+      <a href="#">LinkedIn</a> • 
+      <a href="#">Twitter</a>
+    </p>
+  </footer>
+</body>
+</html>
+
